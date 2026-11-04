@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "typecheck": "tsc --noEmit",
-    "test": "node --test test/game/*.test.js"
+    "test": "node --experimental-strip-types --test test/game/*.test.js"
   },
   "dependencies": {
     "next": "16.4.5",

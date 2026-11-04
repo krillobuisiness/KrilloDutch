@@ -23,7 +23,7 @@ import {
   selectRoundQuestions,
   type Rarity
 } from "@/lib/game/engine.js";
-import { DEMO_DATA_NOTICE, demoQuestions } from "@/lib/game/test-fixtures.js";
+import { adaptOfficialQuestionBank } from "@/lib/game/data/question-bank-adapter";
 
 const rarityLabels: Record<Rarity, string> = {
   PLANKTON: "Plankton",
@@ -41,6 +41,7 @@ export function GameClient() {
   const [answer, setAnswer] = useState("");
   const [clockNow, setClockNow] = useState(0);
   const [setupError, setSetupError] = useState("");
+  const [sourceBank, setSourceBank] = useState<"official" | "development" | "unavailable">("unavailable");
 
   useEffect(() => {
     if (!["preview", "answering", "feedback"].includes(game.phase)) return;
@@ -54,15 +55,28 @@ export function GameClient() {
     return () => window.clearInterval(timerId);
   }, [game.phase, game.phaseStartedAt]);
 
-  function beginRound() {
+  async function beginRound() {
     try {
-      const questions = selectRoundQuestions(demoQuestions);
+      const response = await fetch("/api/question-bank");
+      if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
+        const message = typeof payload?.error === "string" ? payload.error : "De officiële vraagbank is momenteel niet beschikbaar.";
+        setSourceBank("unavailable");
+        setSetupError(message);
+        return;
+      }
+
+      const bank = await response.json();
+      const questions = adaptOfficialQuestionBank(bank);
+      const bankMode = typeof bank?.sourceFile === "string" && bank.sourceFile.includes("starter") ? "development" : "official";
+      setSourceBank(bankMode);
       const now = performance.now();
       setAnswer("");
       setClockNow(now);
       setSetupError("");
-      dispatch({ type: "START", questions, now });
+      dispatch({ type: "START", questions: selectRoundQuestions(questions), now });
     } catch (error) {
+      setSourceBank("unavailable");
       setSetupError(error instanceof Error ? error.message : "De expeditie kon niet starten.");
     }
   }
@@ -82,7 +96,9 @@ export function GameClient() {
   return (
     <main id="main" className="subpage game-session">
       <div className="subpage-kicker"><span className="eyebrow-line" /> DE DAGELIJKSE KLIM <span>EXPEDITIE 001</span></div>
-      <p className="demo-data-banner" role="note">DEMO MET TESTVRAGEN <span>·</span> OFFICIËLE VRAGENBANK ONTBREEKT</p>
+      <p className="demo-data-banner" role="note">
+        {sourceBank === "official" ? "OFFICIËLE VRAGENBANK IN GEBRUIK" : sourceBank === "development" ? "TESTDATASET IN ONTWIKKELMODUS" : "OFFICIËLE VRAGENBANK VEREIST"}
+      </p>
 
       {game.phase === "intro" && (
         <div className="game-intro-layout">

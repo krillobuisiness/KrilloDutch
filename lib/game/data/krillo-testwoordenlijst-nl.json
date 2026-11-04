@@ -1,0 +1,4215 @@
+{
+  "schemaVersion": "1.0.0-test",
+  "locale": "nl-NL",
+  "sourceFile": "user-provided KRILLO starter word lists",
+  "description": "Eerste testwoordenlijst voor KRILLO. Engelse brontermen blijven behouden; displayAnswer is Nederlands waar een betrouwbare gangbare vertaling beschikbaar is.",
+  "rarityTiers": [
+    {
+      "id": "PLANKTON",
+      "label": "Plankton",
+      "points": 4
+    },
+    {
+      "id": "TOO CLEVER",
+      "label": "Slimmerik",
+      "points": 8
+    },
+    {
+      "id": "SCHOOLER",
+      "label": "Kenner",
+      "points": 16
+    },
+    {
+      "id": "RARE",
+      "label": "Zeldzaam",
+      "points": 32
+    },
+    {
+      "id": "DEEP CUT",
+      "label": "Diep verborgen",
+      "points": 64
+    },
+    {
+      "id": "ONE IN A KRILLION",
+      "label": "Eén op een krilljoen",
+      "points": 100
+    }
+  ],
+  "categories": [
+    {
+      "id": "kitchen_herbs",
+      "sourceQuestion": "Name a kitchen herb",
+      "question": "Noem een keukenkruid",
+      "answers": [
+        {
+          "id": "kitchen_herbs_001",
+          "sourceAnswer": "Basil",
+          "displayAnswer": "Basilicum",
+          "acceptedAliases": [
+            "Basil"
+          ],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "kitchen_herbs_002",
+          "sourceAnswer": "Parsley",
+          "displayAnswer": "Peterselie",
+          "acceptedAliases": [
+            "Parsley"
+          ],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "kitchen_herbs_003",
+          "sourceAnswer": "Mint",
+          "displayAnswer": "Munt",
+          "acceptedAliases": [
+            "Mint"
+          ],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "kitchen_herbs_004",
+          "sourceAnswer": "Rosemary",
+          "displayAnswer": "Rozemarijn",
+          "acceptedAliases": [
+            "Rosemary"
+          ],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "kitchen_herbs_005",
+          "sourceAnswer": "Thyme",
+          "displayAnswer": "Tijm",
+          "acceptedAliases": [
+            "Thyme"
+          ],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "kitchen_herbs_006",
+          "sourceAnswer": "Oregano",
+          "displayAnswer": "Oregano",
+          "acceptedAliases": [],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "kitchen_herbs_007",
+          "sourceAnswer": "Cilantro",
+          "displayAnswer": "Korianderblad",
+          "acceptedAliases": [
+            "Cilantro"
+          ],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "kitchen_herbs_008",
+          "sourceAnswer": "Dill",
+          "displayAnswer": "Dille",
+          "acceptedAliases": [
+            "Dill"
+          ],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "kitchen_herbs_009",
+          "sourceAnswer": "Sage",
+          "displayAnswer": "Salie",
+          "acceptedAliases": [
+            "Sage"
+          ],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "kitchen_herbs_010",
+          "sourceAnswer": "Chives",
+          "displayAnswer": "Bieslook",
+          "acceptedAliases": [
+            "Chives"
+          ],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "kitchen_herbs_011",
+          "sourceAnswer": "Bay Leaf",
+          "displayAnswer": "Laurierblad",
+          "acceptedAliases": [
+            "Bay Leaf"
+          ],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "kitchen_herbs_012",
+          "sourceAnswer": "Tarragon",
+          "displayAnswer": "Dragon",
+          "acceptedAliases": [
+            "Tarragon"
+          ],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "kitchen_herbs_013",
+          "sourceAnswer": "Marjoram",
+          "displayAnswer": "Majoraan",
+          "acceptedAliases": [
+            "Marjoram"
+          ],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "kitchen_herbs_014",
+          "sourceAnswer": "Lemongrass",
+          "displayAnswer": "Citroengras",
+          "acceptedAliases": [
+            "Lemongrass"
+          ],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "kitchen_herbs_015",
+          "sourceAnswer": "Fennel",
+          "displayAnswer": "Venkel",
+          "acceptedAliases": [
+            "Fennel"
+          ],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "kitchen_herbs_016",
+          "sourceAnswer": "Lovage",
+          "displayAnswer": "Lavas",
+          "acceptedAliases": [
+            "Lovage"
+          ],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "kitchen_herbs_017",
+          "sourceAnswer": "Sorrel",
+          "displayAnswer": "Zuring",
+          "acceptedAliases": [
+            "Sorrel"
+          ],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "kitchen_herbs_018",
+          "sourceAnswer": "Savory",
+          "displayAnswer": "Bonenkruid",
+          "acceptedAliases": [
+            "Savory"
+          ],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "kitchen_herbs_019",
+          "sourceAnswer": "Curry Leaf",
+          "displayAnswer": "Kerrieblad",
+          "acceptedAliases": [
+            "Curry Leaf"
+          ],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "kitchen_herbs_020",
+          "sourceAnswer": "Culantro",
+          "displayAnswer": "Culantro",
+          "acceptedAliases": [],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "kitchen_herbs_021",
+          "sourceAnswer": "Vietnamese Coriander",
+          "displayAnswer": "Vietnamese koriander",
+          "acceptedAliases": [
+            "Vietnamese Coriander"
+          ],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "kitchen_herbs_022",
+          "sourceAnswer": "Chervil",
+          "displayAnswer": "Kervel",
+          "acceptedAliases": [
+            "Chervil"
+          ],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "kitchen_herbs_023",
+          "sourceAnswer": "Epazote",
+          "displayAnswer": "Epazote",
+          "acceptedAliases": [],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "kitchen_herbs_024",
+          "sourceAnswer": "Lemon Balm",
+          "displayAnswer": "Citroenmelisse",
+          "acceptedAliases": [
+            "Lemon Balm"
+          ],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "kitchen_herbs_025",
+          "sourceAnswer": "Angelica",
+          "displayAnswer": "Engelwortel",
+          "acceptedAliases": [
+            "Angelica"
+          ],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "kitchen_herbs_026",
+          "sourceAnswer": "Mugwort",
+          "displayAnswer": "Bijvoet",
+          "acceptedAliases": [
+            "Mugwort"
+          ],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "kitchen_herbs_027",
+          "sourceAnswer": "Yerba Buena",
+          "displayAnswer": "Yerba Buena",
+          "acceptedAliases": [],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "kitchen_herbs_028",
+          "sourceAnswer": "Horehound",
+          "displayAnswer": "Malrove",
+          "acceptedAliases": [
+            "Horehound"
+          ],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "kitchen_herbs_029",
+          "sourceAnswer": "Burnet",
+          "displayAnswer": "Pimpernel",
+          "acceptedAliases": [
+            "Burnet"
+          ],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "kitchen_herbs_030",
+          "sourceAnswer": "Woodruff",
+          "displayAnswer": "Lievevrouwebedstro",
+          "acceptedAliases": [
+            "Woodruff"
+          ],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "kitchen_herbs_031",
+          "sourceAnswer": "Za'atar",
+          "displayAnswer": "Za'atar",
+          "acceptedAliases": [],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "kitchen_herbs_032",
+          "sourceAnswer": "Achiote Leaf",
+          "displayAnswer": "Annattoblad",
+          "acceptedAliases": [
+            "Achiote Leaf"
+          ],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "kitchen_herbs_033",
+          "sourceAnswer": "Kaffir Lime Leaf",
+          "displayAnswer": "Kaffirlimoenblad",
+          "acceptedAliases": [
+            "Kaffir Lime Leaf"
+          ],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "kitchen_herbs_034",
+          "sourceAnswer": "Culantro Recao",
+          "displayAnswer": "Culantro Recao",
+          "acceptedAliases": [],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "kitchen_herbs_035",
+          "sourceAnswer": "African Blue Basil",
+          "displayAnswer": "African Blue Basil",
+          "acceptedAliases": [],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "kitchen_herbs_036",
+          "sourceAnswer": "Holy Basil",
+          "displayAnswer": "Heilige basilicum",
+          "acceptedAliases": [
+            "Holy Basil"
+          ],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "kitchen_herbs_037",
+          "sourceAnswer": "Thai Basil",
+          "displayAnswer": "Thaise basilicum",
+          "acceptedAliases": [
+            "Thai Basil"
+          ],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "kitchen_herbs_038",
+          "sourceAnswer": "Lemon Basil",
+          "displayAnswer": "Citroenbasilicum",
+          "acceptedAliases": [
+            "Lemon Basil"
+          ],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "kitchen_herbs_039",
+          "sourceAnswer": "Genovese Basil",
+          "displayAnswer": "Genovese basilicum",
+          "acceptedAliases": [
+            "Genovese Basil"
+          ],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "kitchen_herbs_040",
+          "sourceAnswer": "Purple Basil",
+          "displayAnswer": "Paarse basilicum",
+          "acceptedAliases": [
+            "Purple Basil"
+          ],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "kitchen_herbs_041",
+          "sourceAnswer": "Cinnamon Basil",
+          "displayAnswer": "Kaneelbasilicum",
+          "acceptedAliases": [
+            "Cinnamon Basil"
+          ],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "kitchen_herbs_042",
+          "sourceAnswer": "Holy Herb",
+          "displayAnswer": "Holy Herb",
+          "acceptedAliases": [],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "kitchen_herbs_043",
+          "sourceAnswer": "Herb Rosemary",
+          "displayAnswer": "Herb Rosemary",
+          "acceptedAliases": [],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "kitchen_herbs_044",
+          "sourceAnswer": "French Tarragon",
+          "displayAnswer": "Franse dragon",
+          "acceptedAliases": [
+            "French Tarragon"
+          ],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "kitchen_herbs_045",
+          "sourceAnswer": "Mastic Tree Leaf",
+          "displayAnswer": "Mastic Tree Leaf",
+          "acceptedAliases": [],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "kitchen_herbs_046",
+          "sourceAnswer": "Shanbalileh",
+          "displayAnswer": "Shanbalileh",
+          "acceptedAliases": [],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "kitchen_herbs_047",
+          "sourceAnswer": "Ajwain Leaf",
+          "displayAnswer": "Ajwain Leaf",
+          "acceptedAliases": [],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "kitchen_herbs_048",
+          "sourceAnswer": "Epazote Blanco",
+          "displayAnswer": "Epazote Blanco",
+          "acceptedAliases": [],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "kitchen_herbs_049",
+          "sourceAnswer": "Vietnamese Balm",
+          "displayAnswer": "Vietnamese Balm",
+          "acceptedAliases": [],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "kitchen_herbs_050",
+          "sourceAnswer": "Hoja Santa",
+          "displayAnswer": "Hoja Santa",
+          "acceptedAliases": [],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "kitchen_herbs_051",
+          "sourceAnswer": "Potherb Mustard",
+          "displayAnswer": "Potherb Mustard",
+          "acceptedAliases": [],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "kitchen_herbs_052",
+          "sourceAnswer": "Water Pepper",
+          "displayAnswer": "Water Pepper",
+          "acceptedAliases": [],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "kitchen_herbs_053",
+          "sourceAnswer": "Korean Mint",
+          "displayAnswer": "Koreaanse munt",
+          "acceptedAliases": [
+            "Korean Mint"
+          ],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "kitchen_herbs_054",
+          "sourceAnswer": "Houttuynia",
+          "displayAnswer": "Houttuynia",
+          "acceptedAliases": [],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        }
+      ]
+    },
+    {
+      "id": "acronyms",
+      "sourceQuestion": "Name an acronym",
+      "question": "Noem een acroniem",
+      "answers": [
+        {
+          "id": "acronyms_001",
+          "sourceAnswer": "NASA",
+          "displayAnswer": "NASA",
+          "acceptedAliases": [],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_002",
+          "sourceAnswer": "FBI",
+          "displayAnswer": "FBI",
+          "acceptedAliases": [],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_003",
+          "sourceAnswer": "LOL",
+          "displayAnswer": "LOL",
+          "acceptedAliases": [],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_004",
+          "sourceAnswer": "USA",
+          "displayAnswer": "USA",
+          "acceptedAliases": [],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_005",
+          "sourceAnswer": "ASAP",
+          "displayAnswer": "ASAP",
+          "acceptedAliases": [],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_006",
+          "sourceAnswer": "CIA",
+          "displayAnswer": "CIA",
+          "acceptedAliases": [],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_007",
+          "sourceAnswer": "OMG",
+          "displayAnswer": "OMG",
+          "acceptedAliases": [],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_008",
+          "sourceAnswer": "BRB",
+          "displayAnswer": "BRB",
+          "acceptedAliases": [],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_009",
+          "sourceAnswer": "DIY",
+          "displayAnswer": "DIY",
+          "acceptedAliases": [],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_010",
+          "sourceAnswer": "FAQ",
+          "displayAnswer": "FAQ",
+          "acceptedAliases": [],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_011",
+          "sourceAnswer": "ATM",
+          "displayAnswer": "ATM",
+          "acceptedAliases": [],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_012",
+          "sourceAnswer": "NBA",
+          "displayAnswer": "NBA",
+          "acceptedAliases": [],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_013",
+          "sourceAnswer": "NFL",
+          "displayAnswer": "NFL",
+          "acceptedAliases": [],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_014",
+          "sourceAnswer": "DNA",
+          "displayAnswer": "DNA",
+          "acceptedAliases": [],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_015",
+          "sourceAnswer": "CEO",
+          "displayAnswer": "CEO",
+          "acceptedAliases": [],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_016",
+          "sourceAnswer": "UFO",
+          "displayAnswer": "UFO",
+          "acceptedAliases": [],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_017",
+          "sourceAnswer": "Scuba",
+          "displayAnswer": "Scuba",
+          "acceptedAliases": [],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_018",
+          "sourceAnswer": "Laser",
+          "displayAnswer": "Laser",
+          "acceptedAliases": [],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_019",
+          "sourceAnswer": "Radar",
+          "displayAnswer": "Radar",
+          "acceptedAliases": [],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_020",
+          "sourceAnswer": "Sonar",
+          "displayAnswer": "Sonar",
+          "acceptedAliases": [],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_021",
+          "sourceAnswer": "Taser",
+          "displayAnswer": "Taser",
+          "acceptedAliases": [],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_022",
+          "sourceAnswer": "Zip Code",
+          "displayAnswer": "Zip Code",
+          "acceptedAliases": [],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_023",
+          "sourceAnswer": "ESPN",
+          "displayAnswer": "ESPN",
+          "acceptedAliases": [],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_024",
+          "sourceAnswer": "HBO",
+          "displayAnswer": "HBO",
+          "acceptedAliases": [],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_025",
+          "sourceAnswer": "CNN",
+          "displayAnswer": "CNN",
+          "acceptedAliases": [],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_026",
+          "sourceAnswer": "BBC",
+          "displayAnswer": "BBC",
+          "acceptedAliases": [],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_027",
+          "sourceAnswer": "Gestapo",
+          "displayAnswer": "Gestapo",
+          "acceptedAliases": [],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_028",
+          "sourceAnswer": "Interpol",
+          "displayAnswer": "Interpol",
+          "acceptedAliases": [],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_029",
+          "sourceAnswer": "IKEA",
+          "displayAnswer": "IKEA",
+          "acceptedAliases": [],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_030",
+          "sourceAnswer": "Nabisco",
+          "displayAnswer": "Nabisco",
+          "acceptedAliases": [],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_031",
+          "sourceAnswer": "UNICEF",
+          "displayAnswer": "UNICEF",
+          "acceptedAliases": [],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_032",
+          "sourceAnswer": "UNESCO",
+          "displayAnswer": "UNESCO",
+          "acceptedAliases": [],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_033",
+          "sourceAnswer": "OPEC",
+          "displayAnswer": "OPEC",
+          "acceptedAliases": [],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_034",
+          "sourceAnswer": "ASEAN",
+          "displayAnswer": "ASEAN",
+          "acceptedAliases": [],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_035",
+          "sourceAnswer": "NAFTA",
+          "displayAnswer": "NAFTA",
+          "acceptedAliases": [],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_036",
+          "sourceAnswer": "WTO",
+          "displayAnswer": "WTO",
+          "acceptedAliases": [],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_037",
+          "sourceAnswer": "SPQR",
+          "displayAnswer": "SPQR",
+          "acceptedAliases": [],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_038",
+          "sourceAnswer": "INRI",
+          "displayAnswer": "INRI",
+          "acceptedAliases": [],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_039",
+          "sourceAnswer": "RIP",
+          "displayAnswer": "RIP",
+          "acceptedAliases": [],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_040",
+          "sourceAnswer": "QED",
+          "displayAnswer": "QED",
+          "acceptedAliases": [],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_041",
+          "sourceAnswer": "AMDG",
+          "displayAnswer": "AMDG",
+          "acceptedAliases": [],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_042",
+          "sourceAnswer": "i.e.",
+          "displayAnswer": "i.e.",
+          "acceptedAliases": [],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_043",
+          "sourceAnswer": "e.g.",
+          "displayAnswer": "e.g.",
+          "acceptedAliases": [],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_044",
+          "sourceAnswer": "NB",
+          "displayAnswer": "NB",
+          "acceptedAliases": [],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_045",
+          "sourceAnswer": "Ibid",
+          "displayAnswer": "Ibid",
+          "acceptedAliases": [],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_046",
+          "sourceAnswer": "Qantas",
+          "displayAnswer": "Qantas",
+          "acceptedAliases": [],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_047",
+          "sourceAnswer": "TANSTAAFL",
+          "displayAnswer": "TANSTAAFL",
+          "acceptedAliases": [],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_048",
+          "sourceAnswer": "WYSIWYG",
+          "displayAnswer": "WYSIWYG",
+          "acceptedAliases": [],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_049",
+          "sourceAnswer": "PEBKAC",
+          "displayAnswer": "PEBKAC",
+          "acceptedAliases": [],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_050",
+          "sourceAnswer": "GNU",
+          "displayAnswer": "GNU",
+          "acceptedAliases": [],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_051",
+          "sourceAnswer": "YAML",
+          "displayAnswer": "YAML",
+          "acceptedAliases": [],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_052",
+          "sourceAnswer": "RTFM",
+          "displayAnswer": "RTFM",
+          "acceptedAliases": [],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_053",
+          "sourceAnswer": "ID10T",
+          "displayAnswer": "ID10T",
+          "acceptedAliases": [],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "acronyms_054",
+          "sourceAnswer": "BOHICA",
+          "displayAnswer": "BOHICA",
+          "acceptedAliases": [],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        }
+      ]
+    },
+    {
+      "id": "turtles",
+      "sourceQuestion": "Name a turtle",
+      "question": "Noem een schildpad",
+      "answers": [
+        {
+          "id": "turtles_001",
+          "sourceAnswer": "Sea Turtle",
+          "displayAnswer": "Zeeschildpad",
+          "acceptedAliases": [
+            "Sea Turtle"
+          ],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "turtles_002",
+          "sourceAnswer": "Box Turtle",
+          "displayAnswer": "Doosschildpad",
+          "acceptedAliases": [
+            "Box Turtle"
+          ],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "turtles_003",
+          "sourceAnswer": "Snapping Turtle",
+          "displayAnswer": "Bijtschildpad",
+          "acceptedAliases": [
+            "Snapping Turtle"
+          ],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "turtles_004",
+          "sourceAnswer": "Red-Eared Slider",
+          "displayAnswer": "Red-Eared Slider",
+          "acceptedAliases": [],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "turtles_005",
+          "sourceAnswer": "Green Sea Turtle",
+          "displayAnswer": "Groene zeeschildpad",
+          "acceptedAliases": [
+            "Green Sea Turtle"
+          ],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "turtles_006",
+          "sourceAnswer": "Leatherback Sea Turtle",
+          "displayAnswer": "Lederschildpad",
+          "acceptedAliases": [
+            "Leatherback Sea Turtle"
+          ],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "turtles_007",
+          "sourceAnswer": "Loggerhead Sea Turtle",
+          "displayAnswer": "Onechte karetschildpad",
+          "acceptedAliases": [
+            "Loggerhead Sea Turtle"
+          ],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "turtles_008",
+          "sourceAnswer": "Hawksbill Sea Turtle",
+          "displayAnswer": "Karetschildpad",
+          "acceptedAliases": [
+            "Hawksbill Sea Turtle"
+          ],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "turtles_009",
+          "sourceAnswer": "Painted Turtle",
+          "displayAnswer": "Geschilderde sierschildpad",
+          "acceptedAliases": [
+            "Painted Turtle"
+          ],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "turtles_010",
+          "sourceAnswer": "Map Turtle",
+          "displayAnswer": "Kaartschildpad",
+          "acceptedAliases": [
+            "Map Turtle"
+          ],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "turtles_011",
+          "sourceAnswer": "Mud Turtle",
+          "displayAnswer": "Modderschildpad",
+          "acceptedAliases": [
+            "Mud Turtle"
+          ],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "turtles_012",
+          "sourceAnswer": "Musk Turtle",
+          "displayAnswer": "Muskusschildpad",
+          "acceptedAliases": [
+            "Musk Turtle"
+          ],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "turtles_013",
+          "sourceAnswer": "Pond Slider",
+          "displayAnswer": "Vijverschildpad",
+          "acceptedAliases": [
+            "Pond Slider"
+          ],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "turtles_014",
+          "sourceAnswer": "Softshell Turtle",
+          "displayAnswer": "Weekschildpad",
+          "acceptedAliases": [
+            "Softshell Turtle"
+          ],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "turtles_015",
+          "sourceAnswer": "Galapagos Tortoise",
+          "displayAnswer": "Galapagosreuzenschildpad",
+          "acceptedAliases": [
+            "Galapagos Tortoise"
+          ],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "turtles_016",
+          "sourceAnswer": "Aldabra Giant Tortoise",
+          "displayAnswer": "Aldabra-reuzenschildpad",
+          "acceptedAliases": [
+            "Aldabra Giant Tortoise"
+          ],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "turtles_017",
+          "sourceAnswer": "Desert Tortoise",
+          "displayAnswer": "Woestijnschildpad",
+          "acceptedAliases": [
+            "Desert Tortoise"
+          ],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "turtles_018",
+          "sourceAnswer": "Greek Tortoise",
+          "displayAnswer": "Griekse landschildpad",
+          "acceptedAliases": [
+            "Greek Tortoise"
+          ],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "turtles_019",
+          "sourceAnswer": "Russian Tortoise",
+          "displayAnswer": "Russische landschildpad",
+          "acceptedAliases": [
+            "Russian Tortoise"
+          ],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "turtles_020",
+          "sourceAnswer": "Indian Star Tortoise",
+          "displayAnswer": "Indische sterschildpad",
+          "acceptedAliases": [
+            "Indian Star Tortoise"
+          ],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "turtles_021",
+          "sourceAnswer": "Indian Flapshell Turtle",
+          "displayAnswer": "Indian Flapshell Turtle",
+          "acceptedAliases": [],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "turtles_022",
+          "sourceAnswer": "Alligator Snapping Turtle",
+          "displayAnswer": "Alligatorschildpad",
+          "acceptedAliases": [
+            "Alligator Snapping Turtle"
+          ],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "turtles_023",
+          "sourceAnswer": "Common Snapping Turtle",
+          "displayAnswer": "Gewone bijtschildpad",
+          "acceptedAliases": [
+            "Common Snapping Turtle"
+          ],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "turtles_024",
+          "sourceAnswer": "Diamondback Terrapin",
+          "displayAnswer": "Diamondback Terrapin",
+          "acceptedAliases": [],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "turtles_025",
+          "sourceAnswer": "Wood Turtle",
+          "displayAnswer": "Bosschildpad",
+          "acceptedAliases": [
+            "Wood Turtle"
+          ],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "turtles_026",
+          "sourceAnswer": "Eastern Box Turtle",
+          "displayAnswer": "Eastern Box Turtle",
+          "acceptedAliases": [],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "turtles_027",
+          "sourceAnswer": "Ornate Box Turtle",
+          "displayAnswer": "Ornate Box Turtle",
+          "acceptedAliases": [],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "turtles_028",
+          "sourceAnswer": "Florida Box Turtle",
+          "displayAnswer": "Florida Box Turtle",
+          "acceptedAliases": [],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "turtles_029",
+          "sourceAnswer": "Spotted Turtle",
+          "displayAnswer": "Gevlekte moerasschildpad",
+          "acceptedAliases": [
+            "Spotted Turtle"
+          ],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "turtles_030",
+          "sourceAnswer": "Blanding's Turtle",
+          "displayAnswer": "Blanding's Turtle",
+          "acceptedAliases": [],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "turtles_031",
+          "sourceAnswer": "Mata Mata",
+          "displayAnswer": "Matamata",
+          "acceptedAliases": [
+            "Mata Mata"
+          ],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "turtles_032",
+          "sourceAnswer": "Chinese Softshell Turtle",
+          "displayAnswer": "Chinese Softshell Turtle",
+          "acceptedAliases": [],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "turtles_033",
+          "sourceAnswer": "Indian Softshell Turtle",
+          "displayAnswer": "Indian Softshell Turtle",
+          "acceptedAliases": [],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "turtles_034",
+          "sourceAnswer": "False Map Turtle",
+          "displayAnswer": "False Map Turtle",
+          "acceptedAliases": [],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "turtles_035",
+          "sourceAnswer": "Rafetus Swinhoei",
+          "displayAnswer": "Rafetus Swinhoei",
+          "acceptedAliases": [],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "turtles_036",
+          "sourceAnswer": "Yangtze Giant Softshell Turtle",
+          "displayAnswer": "Yangtze Giant Softshell Turtle",
+          "acceptedAliases": [],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "turtles_037",
+          "sourceAnswer": "Cantor's Giant Softshell Turtle",
+          "displayAnswer": "Cantor's Giant Softshell Turtle",
+          "acceptedAliases": [],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "turtles_038",
+          "sourceAnswer": "Black Softshell Turtle",
+          "displayAnswer": "Black Softshell Turtle",
+          "acceptedAliases": [],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "turtles_039",
+          "sourceAnswer": "Narrow-Headed Softshell Turtle",
+          "displayAnswer": "Narrow-Headed Softshell Turtle",
+          "acceptedAliases": [],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "turtles_040",
+          "sourceAnswer": "African Helmeted Turtle",
+          "displayAnswer": "Afrikaanse helmschildpad",
+          "acceptedAliases": [
+            "African Helmeted Turtle"
+          ],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "turtles_041",
+          "sourceAnswer": "Mekong Snapping Turtle",
+          "displayAnswer": "Mekong Snapping Turtle",
+          "acceptedAliases": [],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "turtles_042",
+          "sourceAnswer": "Big-Headed Turtle",
+          "displayAnswer": "Grootkopschildpad",
+          "acceptedAliases": [
+            "Big-Headed Turtle"
+          ],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "turtles_043",
+          "sourceAnswer": "Black Marsh Turtle",
+          "displayAnswer": "Black Marsh Turtle",
+          "acceptedAliases": [],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "turtles_044",
+          "sourceAnswer": "Madagascar Big-Headed Turtle",
+          "displayAnswer": "Madagascar Big-Headed Turtle",
+          "acceptedAliases": [],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "turtles_045",
+          "sourceAnswer": "Ploughshare Tortoise",
+          "displayAnswer": "Madagaskarstraalschildpad",
+          "acceptedAliases": [
+            "Ploughshare Tortoise"
+          ],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "turtles_046",
+          "sourceAnswer": "Spider Tortoise",
+          "displayAnswer": "Spinnenschildpad",
+          "acceptedAliases": [
+            "Spider Tortoise"
+          ],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "turtles_047",
+          "sourceAnswer": "Forsten's Tortoise",
+          "displayAnswer": "Forsten's Tortoise",
+          "acceptedAliases": [],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "turtles_048",
+          "sourceAnswer": "Yellow-Headed Amazon River Turtle",
+          "displayAnswer": "Yellow-Headed Amazon River Turtle",
+          "acceptedAliases": [],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "turtles_049",
+          "sourceAnswer": "Red-Bellied Short-Necked Turtle",
+          "displayAnswer": "Red-Bellied Short-Necked Turtle",
+          "acceptedAliases": [],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "turtles_050",
+          "sourceAnswer": "Black-Breasted Leaf Turtle",
+          "displayAnswer": "Black-Breasted Leaf Turtle",
+          "acceptedAliases": [],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "turtles_051",
+          "sourceAnswer": "Roti Island Snake-Necked Turtle",
+          "displayAnswer": "Roti Island Snake-Necked Turtle",
+          "acceptedAliases": [],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "turtles_052",
+          "sourceAnswer": "Matamata Tortoise",
+          "displayAnswer": "Matamata Tortoise",
+          "acceptedAliases": [],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "turtles_053",
+          "sourceAnswer": "Keeled Ploughshare Tortoise",
+          "displayAnswer": "Keeled Ploughshare Tortoise",
+          "acceptedAliases": [],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "turtles_054",
+          "sourceAnswer": "Travancore Tortoise",
+          "displayAnswer": "Travancore Tortoise",
+          "acceptedAliases": [],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        }
+      ]
+    },
+    {
+      "id": "megacities",
+      "sourceQuestion": "Name a city with more than 10 million people",
+      "question": "Noem een stad met meer dan 10 miljoen inwoners",
+      "answers": [
+        {
+          "id": "megacities_001",
+          "sourceAnswer": "Tokyo",
+          "displayAnswer": "Tokio",
+          "acceptedAliases": [
+            "Tokyo"
+          ],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "megacities_002",
+          "sourceAnswer": "New York",
+          "displayAnswer": "New York",
+          "acceptedAliases": [],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "megacities_003",
+          "sourceAnswer": "Mexico City",
+          "displayAnswer": "Mexico-Stad",
+          "acceptedAliases": [
+            "Mexico City"
+          ],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "megacities_004",
+          "sourceAnswer": "Shanghai",
+          "displayAnswer": "Shanghai",
+          "acceptedAliases": [],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "megacities_005",
+          "sourceAnswer": "Beijing",
+          "displayAnswer": "Peking",
+          "acceptedAliases": [
+            "Beijing"
+          ],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "megacities_006",
+          "sourceAnswer": "Delhi",
+          "displayAnswer": "Delhi",
+          "acceptedAliases": [],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "megacities_007",
+          "sourceAnswer": "Mumbai",
+          "displayAnswer": "Mumbai",
+          "acceptedAliases": [],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "megacities_008",
+          "sourceAnswer": "London",
+          "displayAnswer": "Londen",
+          "acceptedAliases": [
+            "London"
+          ],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "megacities_009",
+          "sourceAnswer": "Sao Paulo",
+          "displayAnswer": "São Paulo",
+          "acceptedAliases": [
+            "Sao Paulo"
+          ],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "megacities_010",
+          "sourceAnswer": "Los Angeles",
+          "displayAnswer": "Los Angeles",
+          "acceptedAliases": [],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "megacities_011",
+          "sourceAnswer": "Cairo",
+          "displayAnswer": "Caïro",
+          "acceptedAliases": [
+            "Cairo"
+          ],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "megacities_012",
+          "sourceAnswer": "Seoul",
+          "displayAnswer": "Seoel",
+          "acceptedAliases": [
+            "Seoul"
+          ],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "megacities_013",
+          "sourceAnswer": "Jakarta",
+          "displayAnswer": "Jakarta",
+          "acceptedAliases": [],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "megacities_014",
+          "sourceAnswer": "Moscow",
+          "displayAnswer": "Moskou",
+          "acceptedAliases": [
+            "Moscow"
+          ],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "megacities_015",
+          "sourceAnswer": "Istanbul",
+          "displayAnswer": "Istanboel",
+          "acceptedAliases": [
+            "Istanbul"
+          ],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "megacities_016",
+          "sourceAnswer": "Lagos",
+          "displayAnswer": "Lagos",
+          "acceptedAliases": [],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "megacities_017",
+          "sourceAnswer": "Paris",
+          "displayAnswer": "Parijs",
+          "acceptedAliases": [
+            "Paris"
+          ],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "megacities_018",
+          "sourceAnswer": "Bangkok",
+          "displayAnswer": "Bangkok",
+          "acceptedAliases": [],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "megacities_019",
+          "sourceAnswer": "Manila",
+          "displayAnswer": "Manilla",
+          "acceptedAliases": [
+            "Manila"
+          ],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "megacities_020",
+          "sourceAnswer": "Buenos Aires",
+          "displayAnswer": "Buenos Aires",
+          "acceptedAliases": [],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "megacities_021",
+          "sourceAnswer": "Karachi",
+          "displayAnswer": "Karachi",
+          "acceptedAliases": [],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "megacities_022",
+          "sourceAnswer": "Dhaka",
+          "displayAnswer": "Dhaka",
+          "acceptedAliases": [],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "megacities_023",
+          "sourceAnswer": "Kolkata",
+          "displayAnswer": "Kolkata",
+          "acceptedAliases": [],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "megacities_024",
+          "sourceAnswer": "Osaka",
+          "displayAnswer": "Osaka",
+          "acceptedAliases": [],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "megacities_025",
+          "sourceAnswer": "Shenzhen",
+          "displayAnswer": "Shenzhen",
+          "acceptedAliases": [],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "megacities_026",
+          "sourceAnswer": "Guangzhou",
+          "displayAnswer": "Kanton",
+          "acceptedAliases": [
+            "Guangzhou"
+          ],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "megacities_027",
+          "sourceAnswer": "Tehran",
+          "displayAnswer": "Teheran",
+          "acceptedAliases": [
+            "Tehran"
+          ],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "megacities_028",
+          "sourceAnswer": "Lima",
+          "displayAnswer": "Lima",
+          "acceptedAliases": [],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "megacities_029",
+          "sourceAnswer": "Bogota",
+          "displayAnswer": "Bogotá",
+          "acceptedAliases": [
+            "Bogota"
+          ],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "megacities_030",
+          "sourceAnswer": "Chongqing",
+          "displayAnswer": "Chongqing",
+          "acceptedAliases": [],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "megacities_031",
+          "sourceAnswer": "Kinshasa",
+          "displayAnswer": "Kinshasa",
+          "acceptedAliases": [],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "megacities_032",
+          "sourceAnswer": "Lahore",
+          "displayAnswer": "Lahore",
+          "acceptedAliases": [],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "megacities_033",
+          "sourceAnswer": "Chennai",
+          "displayAnswer": "Chennai",
+          "acceptedAliases": [],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "megacities_034",
+          "sourceAnswer": "Tianjin",
+          "displayAnswer": "Tianjin",
+          "acceptedAliases": [],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "megacities_035",
+          "sourceAnswer": "Chengdu",
+          "displayAnswer": "Chengdu",
+          "acceptedAliases": [],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "megacities_036",
+          "sourceAnswer": "Wuhan",
+          "displayAnswer": "Wuhan",
+          "acceptedAliases": [],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "megacities_037",
+          "sourceAnswer": "Hyderabad",
+          "displayAnswer": "Hyderabad",
+          "acceptedAliases": [],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "megacities_038",
+          "sourceAnswer": "Ho Chi Minh City",
+          "displayAnswer": "Ho Chi Minhstad",
+          "acceptedAliases": [
+            "Ho Chi Minh City"
+          ],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "megacities_039",
+          "sourceAnswer": "Xi'an",
+          "displayAnswer": "Xi'an",
+          "acceptedAliases": [],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "megacities_040",
+          "sourceAnswer": "Hangzhou",
+          "displayAnswer": "Hangzhou",
+          "acceptedAliases": [],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "megacities_041",
+          "sourceAnswer": "Suzhou",
+          "displayAnswer": "Suzhou",
+          "acceptedAliases": [],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "megacities_042",
+          "sourceAnswer": "Zhengzhou",
+          "displayAnswer": "Zhengzhou",
+          "acceptedAliases": [],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "megacities_043",
+          "sourceAnswer": "Dongguan",
+          "displayAnswer": "Dongguan",
+          "acceptedAliases": [],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        }
+      ]
+    },
+    {
+      "id": "bays_gulfs",
+      "sourceQuestion": "Name a bay or gulf",
+      "question": "Noem een baai of golf",
+      "answers": [
+        {
+          "id": "bays_gulfs_001",
+          "sourceAnswer": "Gulf of Mexico",
+          "displayAnswer": "Golf van Mexico",
+          "acceptedAliases": [
+            "Gulf of Mexico"
+          ],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_002",
+          "sourceAnswer": "Hudson Bay",
+          "displayAnswer": "Hudsonbaai",
+          "acceptedAliases": [
+            "Hudson Bay"
+          ],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_003",
+          "sourceAnswer": "Bay of Bengal",
+          "displayAnswer": "Golf van Bengalen",
+          "acceptedAliases": [
+            "Bay of Bengal"
+          ],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_004",
+          "sourceAnswer": "San Francisco Bay",
+          "displayAnswer": "Baai van San Francisco",
+          "acceptedAliases": [
+            "San Francisco Bay"
+          ],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_005",
+          "sourceAnswer": "Chesapeake Bay",
+          "displayAnswer": "Chesapeakebaai",
+          "acceptedAliases": [
+            "Chesapeake Bay"
+          ],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_006",
+          "sourceAnswer": "Persian Gulf",
+          "displayAnswer": "Perzische Golf",
+          "acceptedAliases": [
+            "Persian Gulf"
+          ],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_007",
+          "sourceAnswer": "Bay of Biscay",
+          "displayAnswer": "Golf van Biskaje",
+          "acceptedAliases": [
+            "Bay of Biscay"
+          ],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_008",
+          "sourceAnswer": "Tampa Bay",
+          "displayAnswer": "Tampabaai",
+          "acceptedAliases": [
+            "Tampa Bay"
+          ],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_009",
+          "sourceAnswer": "Bay of Pigs",
+          "displayAnswer": "Bay of Pigs",
+          "acceptedAliases": [],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "bays_gulfs_010",
+          "sourceAnswer": "Guantanamo Bay",
+          "displayAnswer": "Guantanamo Bay",
+          "acceptedAliases": [],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "bays_gulfs_011",
+          "sourceAnswer": "Bay of Fundy",
+          "displayAnswer": "Fundybaai",
+          "acceptedAliases": [
+            "Bay of Fundy"
+          ],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_012",
+          "sourceAnswer": "Gulf of Aden",
+          "displayAnswer": "Golf van Aden",
+          "acceptedAliases": [
+            "Gulf of Aden"
+          ],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_013",
+          "sourceAnswer": "Gulf of California",
+          "displayAnswer": "Golf van Californië",
+          "acceptedAliases": [
+            "Gulf of California"
+          ],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_014",
+          "sourceAnswer": "Gulf of Alaska",
+          "displayAnswer": "Golf van Alaska",
+          "acceptedAliases": [
+            "Gulf of Alaska"
+          ],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_015",
+          "sourceAnswer": "Botany Bay",
+          "displayAnswer": "Botanybaai",
+          "acceptedAliases": [
+            "Botany Bay"
+          ],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_016",
+          "sourceAnswer": "Monterey Bay",
+          "displayAnswer": "Montereybaai",
+          "acceptedAliases": [
+            "Monterey Bay"
+          ],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_017",
+          "sourceAnswer": "Green Bay",
+          "displayAnswer": "Green Bay",
+          "acceptedAliases": [],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "bays_gulfs_018",
+          "sourceAnswer": "Montego Bay",
+          "displayAnswer": "Montego Bay",
+          "acceptedAliases": [],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "bays_gulfs_019",
+          "sourceAnswer": "Gulf of Thailand",
+          "displayAnswer": "Golf van Thailand",
+          "acceptedAliases": [
+            "Gulf of Thailand"
+          ],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_020",
+          "sourceAnswer": "Gulf of Tonkin",
+          "displayAnswer": "Golf van Tonkin",
+          "acceptedAliases": [
+            "Gulf of Tonkin"
+          ],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_021",
+          "sourceAnswer": "Gulf of Aqaba",
+          "displayAnswer": "Golf van Akaba",
+          "acceptedAliases": [
+            "Gulf of Aqaba"
+          ],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_022",
+          "sourceAnswer": "Gulf of Bothnia",
+          "displayAnswer": "Botnische Golf",
+          "acceptedAliases": [
+            "Gulf of Bothnia"
+          ],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_023",
+          "sourceAnswer": "Gulf of Guinea",
+          "displayAnswer": "Golf van Guinee",
+          "acceptedAliases": [
+            "Gulf of Guinea"
+          ],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_024",
+          "sourceAnswer": "Gulf of Carpentaria",
+          "displayAnswer": "Golf van Carpentaria",
+          "acceptedAliases": [
+            "Gulf of Carpentaria"
+          ],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_025",
+          "sourceAnswer": "Gulf of Maine",
+          "displayAnswer": "Golf van Maine",
+          "acceptedAliases": [
+            "Gulf of Maine"
+          ],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_026",
+          "sourceAnswer": "Gulf of Panama",
+          "displayAnswer": "Golf van Panama",
+          "acceptedAliases": [
+            "Gulf of Panama"
+          ],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_027",
+          "sourceAnswer": "Galveston Bay",
+          "displayAnswer": "Galvestonbaai",
+          "acceptedAliases": [
+            "Galveston Bay"
+          ],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_028",
+          "sourceAnswer": "Mobile Bay",
+          "displayAnswer": "Mobile Bay",
+          "acceptedAliases": [],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "bays_gulfs_029",
+          "sourceAnswer": "Delaware Bay",
+          "displayAnswer": "Delawarebaai",
+          "acceptedAliases": [
+            "Delaware Bay"
+          ],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_030",
+          "sourceAnswer": "Cape Cod Bay",
+          "displayAnswer": "Cape Cod Bay",
+          "acceptedAliases": [],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "bays_gulfs_031",
+          "sourceAnswer": "Bantry Bay",
+          "displayAnswer": "Bantry Bay",
+          "acceptedAliases": [],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "bays_gulfs_032",
+          "sourceAnswer": "Bay of Kotor",
+          "displayAnswer": "Baai van Kotor",
+          "acceptedAliases": [
+            "Bay of Kotor"
+          ],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_033",
+          "sourceAnswer": "Bay of Gibraltar",
+          "displayAnswer": "Baai van Gibraltar",
+          "acceptedAliases": [
+            "Bay of Gibraltar"
+          ],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_034",
+          "sourceAnswer": "Gulf of Corinth",
+          "displayAnswer": "Golf van Korinthe",
+          "acceptedAliases": [
+            "Gulf of Corinth"
+          ],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_035",
+          "sourceAnswer": "Gulf of Venice",
+          "displayAnswer": "Golf van Venetië",
+          "acceptedAliases": [
+            "Gulf of Venice"
+          ],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_036",
+          "sourceAnswer": "Gulf of Riga",
+          "displayAnswer": "Golf van Riga",
+          "acceptedAliases": [
+            "Gulf of Riga"
+          ],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_037",
+          "sourceAnswer": "Gulf of Genoa",
+          "displayAnswer": "Golf van Genua",
+          "acceptedAliases": [
+            "Gulf of Genoa"
+          ],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_038",
+          "sourceAnswer": "Gulf of Taranto",
+          "displayAnswer": "Golf van Tarente",
+          "acceptedAliases": [
+            "Gulf of Taranto"
+          ],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_039",
+          "sourceAnswer": "Phang Nga Bay",
+          "displayAnswer": "Phang Nga Bay",
+          "acceptedAliases": [],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "bays_gulfs_040",
+          "sourceAnswer": "Horseshoe Bay",
+          "displayAnswer": "Horseshoe Bay",
+          "acceptedAliases": [],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "bays_gulfs_041",
+          "sourceAnswer": "Gulf of Martaban",
+          "displayAnswer": "Gulf of Martaban",
+          "acceptedAliases": [],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "bays_gulfs_042",
+          "sourceAnswer": "Gulf of Tehuantepec",
+          "displayAnswer": "Golf van Tehuantepec",
+          "acceptedAliases": [
+            "Gulf of Tehuantepec"
+          ],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_043",
+          "sourceAnswer": "Gulf of Darién",
+          "displayAnswer": "Golf van Darién",
+          "acceptedAliases": [
+            "Gulf of Darién"
+          ],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_044",
+          "sourceAnswer": "Gulf of Gabès",
+          "displayAnswer": "Golf van Gabès",
+          "acceptedAliases": [
+            "Gulf of Gabès"
+          ],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_045",
+          "sourceAnswer": "Gulf of Anadyr",
+          "displayAnswer": "Golf van Anadyr",
+          "acceptedAliases": [
+            "Gulf of Anadyr"
+          ],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_046",
+          "sourceAnswer": "Gulf of Ob",
+          "displayAnswer": "Golf van Ob",
+          "acceptedAliases": [
+            "Gulf of Ob"
+          ],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_047",
+          "sourceAnswer": "Korea Bay",
+          "displayAnswer": "Koreabaai",
+          "acceptedAliases": [
+            "Korea Bay"
+          ],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_048",
+          "sourceAnswer": "Peter the Great Gulf",
+          "displayAnswer": "Golf van Peter de Grote",
+          "acceptedAliases": [
+            "Peter the Great Gulf"
+          ],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_049",
+          "sourceAnswer": "Maputo Bay",
+          "displayAnswer": "Baai van Maputo",
+          "acceptedAliases": [
+            "Maputo Bay"
+          ],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_050",
+          "sourceAnswer": "Carmarthen Bay",
+          "displayAnswer": "Carmarthenbaai",
+          "acceptedAliases": [
+            "Carmarthen Bay"
+          ],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_051",
+          "sourceAnswer": "Bay of Whales",
+          "displayAnswer": "Bay of Whales",
+          "acceptedAliases": [],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "bays_gulfs_052",
+          "sourceAnswer": "Bay of Quinte",
+          "displayAnswer": "Baai van Quinte",
+          "acceptedAliases": [
+            "Bay of Quinte"
+          ],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_053",
+          "sourceAnswer": "Storm Bay",
+          "displayAnswer": "Stormbaai",
+          "acceptedAliases": [
+            "Storm Bay"
+          ],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_054",
+          "sourceAnswer": "Geographe Bay",
+          "displayAnswer": "Geographebaai",
+          "acceptedAliases": [
+            "Geographe Bay"
+          ],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_055",
+          "sourceAnswer": "Roebuck Bay",
+          "displayAnswer": "Roebuckbaai",
+          "acceptedAliases": [
+            "Roebuck Bay"
+          ],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_056",
+          "sourceAnswer": "Gulf of Tadjoura",
+          "displayAnswer": "Golf van Tadjoura",
+          "acceptedAliases": [
+            "Gulf of Tadjoura"
+          ],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_057",
+          "sourceAnswer": "Gulf of Tomini",
+          "displayAnswer": "Golf van Tomini",
+          "acceptedAliases": [
+            "Gulf of Tomini"
+          ],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_058",
+          "sourceAnswer": "Gulf of Boni",
+          "displayAnswer": "Golf van Boni",
+          "acceptedAliases": [
+            "Gulf of Boni"
+          ],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_059",
+          "sourceAnswer": "Gulf of Antalya",
+          "displayAnswer": "Golf van Antalya",
+          "acceptedAliases": [
+            "Gulf of Antalya"
+          ],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "bays_gulfs_060",
+          "sourceAnswer": "Thermaic Gulf",
+          "displayAnswer": "Thermaïsche Golf",
+          "acceptedAliases": [
+            "Thermaic Gulf"
+          ],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "translated"
+        }
+      ]
+    },
+    {
+      "id": "things_that_shrink",
+      "sourceQuestion": "Name something that shrinks",
+      "question": "Noem iets dat krimpt",
+      "answers": [
+        {
+          "id": "things_that_shrink_001",
+          "sourceAnswer": "Clothes",
+          "displayAnswer": "Kleding",
+          "acceptedAliases": [
+            "Clothes"
+          ],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "things_that_shrink_002",
+          "sourceAnswer": "Sweater",
+          "displayAnswer": "Trui",
+          "acceptedAliases": [
+            "Sweater"
+          ],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "things_that_shrink_003",
+          "sourceAnswer": "Wool",
+          "displayAnswer": "Wol",
+          "acceptedAliases": [
+            "Wool"
+          ],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "things_that_shrink_004",
+          "sourceAnswer": "Jeans",
+          "displayAnswer": "Spijkerbroek",
+          "acceptedAliases": [
+            "Jeans"
+          ],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "things_that_shrink_005",
+          "sourceAnswer": "T-Shirt",
+          "displayAnswer": "T-shirt",
+          "acceptedAliases": [],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "things_that_shrink_006",
+          "sourceAnswer": "Ice",
+          "displayAnswer": "IJs",
+          "acceptedAliases": [
+            "Ice"
+          ],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "things_that_shrink_007",
+          "sourceAnswer": "Balloon",
+          "displayAnswer": "Ballon",
+          "acceptedAliases": [
+            "Balloon"
+          ],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "things_that_shrink_008",
+          "sourceAnswer": "Ant-Man",
+          "displayAnswer": "Ant-Man",
+          "acceptedAliases": [],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "things_that_shrink_009",
+          "sourceAnswer": "Cotton",
+          "displayAnswer": "Katoen",
+          "acceptedAliases": [
+            "Cotton"
+          ],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "things_that_shrink_010",
+          "sourceAnswer": "Shrinky Dinks",
+          "displayAnswer": "Shrinky Dinks",
+          "acceptedAliases": [],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "things_that_shrink_011",
+          "sourceAnswer": "Shrink Wrap",
+          "displayAnswer": "Krimpfolie",
+          "acceptedAliases": [
+            "Shrink Wrap"
+          ],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "things_that_shrink_012",
+          "sourceAnswer": "Alice",
+          "displayAnswer": "Alice",
+          "acceptedAliases": [],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "things_that_shrink_013",
+          "sourceAnswer": "Old People",
+          "displayAnswer": "Oudere mensen",
+          "acceptedAliases": [
+            "Old People"
+          ],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "things_that_shrink_014",
+          "sourceAnswer": "Muscles",
+          "displayAnswer": "Spieren",
+          "acceptedAliases": [
+            "Muscles"
+          ],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "things_that_shrink_015",
+          "sourceAnswer": "Spinach",
+          "displayAnswer": "Spinazie",
+          "acceptedAliases": [
+            "Spinach"
+          ],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "things_that_shrink_016",
+          "sourceAnswer": "Bacon",
+          "displayAnswer": "Spek",
+          "acceptedAliases": [
+            "Bacon"
+          ],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "things_that_shrink_017",
+          "sourceAnswer": "Soap",
+          "displayAnswer": "Zeep",
+          "acceptedAliases": [
+            "Soap"
+          ],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "things_that_shrink_018",
+          "sourceAnswer": "Glaciers",
+          "displayAnswer": "Gletsjers",
+          "acceptedAliases": [
+            "Glaciers"
+          ],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "things_that_shrink_019",
+          "sourceAnswer": "Socks",
+          "displayAnswer": "Sokken",
+          "acceptedAliases": [
+            "Socks"
+          ],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "things_that_shrink_020",
+          "sourceAnswer": "Pants",
+          "displayAnswer": "Broek",
+          "acceptedAliases": [
+            "Pants"
+          ],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "things_that_shrink_021",
+          "sourceAnswer": "Hoodie",
+          "displayAnswer": "Hoodie",
+          "acceptedAliases": [],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "things_that_shrink_022",
+          "sourceAnswer": "Meat",
+          "displayAnswer": "Vlees",
+          "acceptedAliases": [
+            "Meat"
+          ],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "things_that_shrink_023",
+          "sourceAnswer": "Grapes",
+          "displayAnswer": "Druiven",
+          "acceptedAliases": [
+            "Grapes"
+          ],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "things_that_shrink_024",
+          "sourceAnswer": "Mushrooms",
+          "displayAnswer": "Paddenstoelen",
+          "acceptedAliases": [
+            "Mushrooms"
+          ],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "things_that_shrink_025",
+          "sourceAnswer": "Stomach",
+          "displayAnswer": "Maag",
+          "acceptedAliases": [
+            "Stomach"
+          ],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "things_that_shrink_026",
+          "sourceAnswer": "Fat",
+          "displayAnswer": "Vet",
+          "acceptedAliases": [
+            "Fat"
+          ],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "things_that_shrink_027",
+          "sourceAnswer": "Rainforest",
+          "displayAnswer": "Regenwoud",
+          "acceptedAliases": [
+            "Rainforest"
+          ],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "things_that_shrink_028",
+          "sourceAnswer": "Iceberg",
+          "displayAnswer": "IJsberg",
+          "acceptedAliases": [
+            "Iceberg"
+          ],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "things_that_shrink_029",
+          "sourceAnswer": "Linen",
+          "displayAnswer": "Linnen",
+          "acceptedAliases": [
+            "Linen"
+          ],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "things_that_shrink_030",
+          "sourceAnswer": "Rayon",
+          "displayAnswer": "Rayon",
+          "acceptedAliases": [],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "things_that_shrink_031",
+          "sourceAnswer": "Cashmere",
+          "displayAnswer": "Cashmere",
+          "acceptedAliases": [],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "things_that_shrink_032",
+          "sourceAnswer": "Dress",
+          "displayAnswer": "Jurk",
+          "acceptedAliases": [
+            "Dress"
+          ],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "things_that_shrink_033",
+          "sourceAnswer": "Plastic",
+          "displayAnswer": "Plastic",
+          "acceptedAliases": [],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "things_that_shrink_034",
+          "sourceAnswer": "Wood",
+          "displayAnswer": "Hout",
+          "acceptedAliases": [
+            "Wood"
+          ],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "things_that_shrink_035",
+          "sourceAnswer": "Clay",
+          "displayAnswer": "Klei",
+          "acceptedAliases": [
+            "Clay"
+          ],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "things_that_shrink_036",
+          "sourceAnswer": "Metal",
+          "displayAnswer": "Metaal",
+          "acceptedAliases": [
+            "Metal"
+          ],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "things_that_shrink_037",
+          "sourceAnswer": "Brain",
+          "displayAnswer": "Hersenen",
+          "acceptedAliases": [
+            "Brain"
+          ],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "things_that_shrink_038",
+          "sourceAnswer": "Tumor",
+          "displayAnswer": "Tumor",
+          "acceptedAliases": [],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "things_that_shrink_039",
+          "sourceAnswer": "Crayon",
+          "displayAnswer": "Crayon",
+          "acceptedAliases": [],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "things_that_shrink_040",
+          "sourceAnswer": "Jawbreaker",
+          "displayAnswer": "Jawbreaker",
+          "acceptedAliases": [],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "things_that_shrink_041",
+          "sourceAnswer": "Leather",
+          "displayAnswer": "Leer",
+          "acceptedAliases": [
+            "Leather"
+          ],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "things_that_shrink_042",
+          "sourceAnswer": "Silk",
+          "displayAnswer": "Zijde",
+          "acceptedAliases": [
+            "Silk"
+          ],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "things_that_shrink_043",
+          "sourceAnswer": "Styrofoam",
+          "displayAnswer": "Piepschuim",
+          "acceptedAliases": [
+            "Styrofoam"
+          ],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "things_that_shrink_044",
+          "sourceAnswer": "Mercury",
+          "displayAnswer": "Mercury",
+          "acceptedAliases": [],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "things_that_shrink_045",
+          "sourceAnswer": "Star",
+          "displayAnswer": "Ster",
+          "acceptedAliases": [
+            "Star"
+          ],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "things_that_shrink_046",
+          "sourceAnswer": "Aral Sea",
+          "displayAnswer": "Aral Sea",
+          "acceptedAliases": [],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "things_that_shrink_047",
+          "sourceAnswer": "Dead Sea",
+          "displayAnswer": "Dead Sea",
+          "acceptedAliases": [],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "things_that_shrink_048",
+          "sourceAnswer": "Great Salt Lake",
+          "displayAnswer": "Great Salt Lake",
+          "acceptedAliases": [],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "things_that_shrink_049",
+          "sourceAnswer": "Moon",
+          "displayAnswer": "Maan",
+          "acceptedAliases": [
+            "Moon"
+          ],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "things_that_shrink_050",
+          "sourceAnswer": "Planet Mercury",
+          "displayAnswer": "Planeet Mercurius",
+          "acceptedAliases": [
+            "Planet Mercury"
+          ],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "things_that_shrink_051",
+          "sourceAnswer": "Lake Chad",
+          "displayAnswer": "Tsjaadmeer",
+          "acceptedAliases": [
+            "Lake Chad"
+          ],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "things_that_shrink_052",
+          "sourceAnswer": "Thymus",
+          "displayAnswer": "Thymus",
+          "acceptedAliases": [],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "things_that_shrink_053",
+          "sourceAnswer": "Concrete",
+          "displayAnswer": "Beton",
+          "acceptedAliases": [
+            "Concrete"
+          ],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "things_that_shrink_054",
+          "sourceAnswer": "Contact Lens",
+          "displayAnswer": "Contactlens",
+          "acceptedAliases": [
+            "Contact Lens"
+          ],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "things_that_shrink_055",
+          "sourceAnswer": "Orbeez",
+          "displayAnswer": "Orbeez",
+          "acceptedAliases": [],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "things_that_shrink_056",
+          "sourceAnswer": "Tadpole Tail",
+          "displayAnswer": "Kikkervisstaart",
+          "acceptedAliases": [
+            "Tadpole Tail"
+          ],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "things_that_shrink_057",
+          "sourceAnswer": "Shrew",
+          "displayAnswer": "Spitsmuis",
+          "acceptedAliases": [
+            "Shrew"
+          ],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "translated"
+        },
+        {
+          "id": "things_that_shrink_058",
+          "sourceAnswer": "Marine Iguana",
+          "displayAnswer": "Zeeleguaan",
+          "acceptedAliases": [
+            "Marine Iguana"
+          ],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "translated"
+        }
+      ]
+    },
+    {
+      "id": "mario_enemies",
+      "sourceQuestion": "Name a Mario enemy",
+      "question": "Noem een vijand uit Mario",
+      "answers": [
+        {
+          "id": "mario_enemies_001",
+          "sourceAnswer": "Goomba",
+          "displayAnswer": "Goomba",
+          "acceptedAliases": [],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_002",
+          "sourceAnswer": "Koopa Troopa",
+          "displayAnswer": "Koopa Troopa",
+          "acceptedAliases": [],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_003",
+          "sourceAnswer": "Piranha Plant",
+          "displayAnswer": "Piranha Plant",
+          "acceptedAliases": [],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_004",
+          "sourceAnswer": "Boo",
+          "displayAnswer": "Boo",
+          "acceptedAliases": [],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_005",
+          "sourceAnswer": "Bullet Bill",
+          "displayAnswer": "Bullet Bill",
+          "acceptedAliases": [],
+          "rarityTierId": "PLANKTON",
+          "points": 4,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_006",
+          "sourceAnswer": "Cheep Cheep",
+          "displayAnswer": "Cheep Cheep",
+          "acceptedAliases": [],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_007",
+          "sourceAnswer": "Bob-omb",
+          "displayAnswer": "Bob-omb",
+          "acceptedAliases": [],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_008",
+          "sourceAnswer": "Hammer Bro",
+          "displayAnswer": "Hammer Bro",
+          "acceptedAliases": [],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_009",
+          "sourceAnswer": "Lakitu",
+          "displayAnswer": "Lakitu",
+          "acceptedAliases": [],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_010",
+          "sourceAnswer": "Chain Chomp",
+          "displayAnswer": "Chain Chomp",
+          "acceptedAliases": [],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_011",
+          "sourceAnswer": "Dry Bones",
+          "displayAnswer": "Dry Bones",
+          "acceptedAliases": [],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_012",
+          "sourceAnswer": "Thwomp",
+          "displayAnswer": "Thwomp",
+          "acceptedAliases": [],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_013",
+          "sourceAnswer": "Blooper",
+          "displayAnswer": "Blooper",
+          "acceptedAliases": [],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_014",
+          "sourceAnswer": "Shy Guy",
+          "displayAnswer": "Shy Guy",
+          "acceptedAliases": [],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_015",
+          "sourceAnswer": "Spiny",
+          "displayAnswer": "Spiny",
+          "acceptedAliases": [],
+          "rarityTierId": "TOO CLEVER",
+          "points": 8,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_016",
+          "sourceAnswer": "Buzzy Beetle",
+          "displayAnswer": "Buzzy Beetle",
+          "acceptedAliases": [],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_017",
+          "sourceAnswer": "Monty Mole",
+          "displayAnswer": "Monty Mole",
+          "acceptedAliases": [],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_018",
+          "sourceAnswer": "Wiggler",
+          "displayAnswer": "Wiggler",
+          "acceptedAliases": [],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_019",
+          "sourceAnswer": "Ninji",
+          "displayAnswer": "Ninji",
+          "acceptedAliases": [],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_020",
+          "sourceAnswer": "Fuzzy",
+          "displayAnswer": "Fuzzy",
+          "acceptedAliases": [],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_021",
+          "sourceAnswer": "Magikoopa",
+          "displayAnswer": "Magikoopa",
+          "acceptedAliases": [],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_022",
+          "sourceAnswer": "Boom Boom",
+          "displayAnswer": "Boom Boom",
+          "acceptedAliases": [],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_023",
+          "sourceAnswer": "Pom Pom",
+          "displayAnswer": "Pom Pom",
+          "acceptedAliases": [],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_024",
+          "sourceAnswer": "Swoop",
+          "displayAnswer": "Swoop",
+          "acceptedAliases": [],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_025",
+          "sourceAnswer": "Lakitu Cloud",
+          "displayAnswer": "Lakitu Cloud",
+          "acceptedAliases": [],
+          "rarityTierId": "SCHOOLER",
+          "points": 16,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_026",
+          "sourceAnswer": "Mummipokey",
+          "displayAnswer": "Mummipokey",
+          "acceptedAliases": [],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_027",
+          "sourceAnswer": "Dry Bowser",
+          "displayAnswer": "Dry Bowser",
+          "acceptedAliases": [],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_028",
+          "sourceAnswer": "Goombrat",
+          "displayAnswer": "Goombrat",
+          "acceptedAliases": [],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_029",
+          "sourceAnswer": "Galoomba",
+          "displayAnswer": "Galoomba",
+          "acceptedAliases": [],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_030",
+          "sourceAnswer": "Spiny Cheep Cheep",
+          "displayAnswer": "Spiny Cheep Cheep",
+          "acceptedAliases": [],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_031",
+          "sourceAnswer": "Porcupuffer",
+          "displayAnswer": "Porcupuffer",
+          "acceptedAliases": [],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_032",
+          "sourceAnswer": "Cataquack",
+          "displayAnswer": "Cataquack",
+          "acceptedAliases": [],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_033",
+          "sourceAnswer": "Eerie",
+          "displayAnswer": "Eerie",
+          "acceptedAliases": [],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_034",
+          "sourceAnswer": "Snifit",
+          "displayAnswer": "Snifit",
+          "acceptedAliases": [],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_035",
+          "sourceAnswer": "Ninji Ninja",
+          "displayAnswer": "Ninji Ninja",
+          "acceptedAliases": [],
+          "rarityTierId": "RARE",
+          "points": 32,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_036",
+          "sourceAnswer": "Huckit Crab",
+          "displayAnswer": "Huckit Crab",
+          "acceptedAliases": [],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_037",
+          "sourceAnswer": "Skelerex",
+          "displayAnswer": "Skelerex",
+          "acceptedAliases": [],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_038",
+          "sourceAnswer": "Sparky Beetle",
+          "displayAnswer": "Sparky Beetle",
+          "acceptedAliases": [],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_039",
+          "sourceAnswer": "Jellybeam",
+          "displayAnswer": "Jellybeam",
+          "acceptedAliases": [],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_040",
+          "sourceAnswer": "Wart's Minion",
+          "displayAnswer": "Wart's Minion",
+          "acceptedAliases": [],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_041",
+          "sourceAnswer": "Mad Mole",
+          "displayAnswer": "Mad Mole",
+          "acceptedAliases": [],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_042",
+          "sourceAnswer": "Grinder",
+          "displayAnswer": "Grinder",
+          "acceptedAliases": [],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_043",
+          "sourceAnswer": "Magmaargh",
+          "displayAnswer": "Magmaargh",
+          "acceptedAliases": [],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_044",
+          "sourceAnswer": "Spike",
+          "displayAnswer": "Spike",
+          "acceptedAliases": [],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_045",
+          "sourceAnswer": "Spikes",
+          "displayAnswer": "Spikes",
+          "acceptedAliases": [],
+          "rarityTierId": "DEEP CUT",
+          "points": 64,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_046",
+          "sourceAnswer": "Red Koopa Troopa",
+          "displayAnswer": "Red Koopa Troopa",
+          "acceptedAliases": [],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_047",
+          "sourceAnswer": "Green Koopa Troopa",
+          "displayAnswer": "Green Koopa Troopa",
+          "acceptedAliases": [],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_048",
+          "sourceAnswer": "Blue Koopa Troopa",
+          "displayAnswer": "Blue Koopa Troopa",
+          "acceptedAliases": [],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_049",
+          "sourceAnswer": "Yellow Koopa Troopa",
+          "displayAnswer": "Yellow Koopa Troopa",
+          "acceptedAliases": [],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_050",
+          "sourceAnswer": "Red Paratroopa",
+          "displayAnswer": "Red Paratroopa",
+          "acceptedAliases": [],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_051",
+          "sourceAnswer": "Green Paratroopa",
+          "displayAnswer": "Green Paratroopa",
+          "acceptedAliases": [],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_052",
+          "sourceAnswer": "Red Shell",
+          "displayAnswer": "Red Shell",
+          "acceptedAliases": [],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_053",
+          "sourceAnswer": "Green Shell",
+          "displayAnswer": "Green Shell",
+          "acceptedAliases": [],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_054",
+          "sourceAnswer": "Fire Chomp",
+          "displayAnswer": "Fire Chomp",
+          "acceptedAliases": [],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        },
+        {
+          "id": "mario_enemies_055",
+          "sourceAnswer": "Bone Goomba",
+          "displayAnswer": "Bone Goomba",
+          "acceptedAliases": [],
+          "rarityTierId": "ONE IN A KRILLION",
+          "points": 100,
+          "status": "active",
+          "translationStatus": "english_name_retained"
+        }
+      ]
+    }
+  ],
+  "editorialNotes": [
+    "Dit is een testdataset, geen vervanging van de officiële 393-recordsvragenbank.",
+    "De Engelse bronterm staat altijd in sourceAnswer.",
+    "Wanneer een Nederlandse vertaling is gebruikt, staat de Engelse bronterm in acceptedAliases.",
+    "Eigennamen, merknamen, acroniemen en termen zonder zekere gangbare Nederlandse naam zijn ongewijzigd gelaten.",
+    "Rarity en punten zijn exact overgenomen uit de aangeleverde lijst.",
+    "De lijst bevat enkele opvallende of mogelijk betwistbare categorie-antwoorden; deze zijn bewust niet inhoudelijk gecorrigeerd."
+  ]
+}
